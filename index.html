@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-dark">
+    <header>
+        <nav>
+            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <img src="./Assets/logo.svg" alt="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarColor02">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#aboutSection">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#infoSection">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#pricingContainer">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#faqContainer">Blog</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-light px-4 btn-height" type="button" id="navBtn">
+          <a href="#contactSection #mapSection" class="text-decoration-none text-light nav-link-hover-dark">CONTACT</a></button>
+      </div>
+    </div>
+  </nav>
+        </nav>
+    </header>
+    <main>
+        <section id="heroSection" class="container-sm d-flex flex-column-reverse flex-sm-row mb-5">
+            <div class="heroDivLeft mx-4 mt-2">
+                <h5 id="heroTitle" class="text-warning mb-4">MODERN STUDIO</h5>
+                <h2 id="heroHeading" class="text-light mb-4">We’re Help <br> To Build Your <br> Dream Project</h2>
+                <p id="heroText" class="text-info">Agency provides a full service range including technical skills, design, business understanding.</p>
+                <div id="heroBtn" class="d-flex gap-4 mt-4 mb-5">
+                    <button id="heroBtn1" class="bg-warning border-0 rounded-2"> <a href="#infoSection" class="text-decoration-none text-light">HOW WE WORK</a></button>
+                    <button id="heroBtn2" class="bg-dark border-0"> <a href="#contactSection" class="text-decoration-none text-light">Contact Us</a> </button>
+                </div>
+                <div id="manDiv" class="d-flex justify-content-center align-items-center gap-4">
+                    <div id="manImgDiv">
+                        <img src="./Assets/Bitmap.svg" alt="maning" class="mb-5">
+                    </div>
+                    <div>
+                        <p id="manText" class="text-info my-0">"Put themselves in the merchant's shoes"</p>
+                        <p id="manDesc" class="text-light my-0">Meta Inc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heroDivRight">
+                <img src="./Assets/heropic.svg" alt="heroimg" class="img-fluid px-4">
+            </div>
+        </section>
+        <section class="bg-primary" id="bannerSection">
+            <div id="bannerDiv" class="pt-4 d-flex flex-wrap justify-content-evenly align-items-center gap-4 mb-2 mx-4">
+                <img src="./Assets/digitalside.svg" alt="bannerImg">
+                <img src="./Assets/vortex.svg" alt="bannerImg">
+                <img src="./Assets/travel.svg" alt="bannerImg">
+                <img src="./Assets/fuzion.svg" alt="bannerImg">
+                <img src="./Assets/media.svg" alt="bannerImg">
+            </div>
+            <section class="bg-primary mx-4 d-sm-flex justify-content-sm-center align-items-sm-center" id="aboutSection">
+            <div class="aboutDivLeft">
+                <img src="./Assets/pic.png" id="aboutImg" class="img-fluid px-2" alt="aboutImg">
+            </div>
+            <div class="aboutDivRight">
+                <h5 id="aboutTitle" class="text-warning mt-4">ABOUT</h5>
+                <h3 id="aboutHeading" class="text-secondary">An Experience <br> Design Agency</h3>
+                <p id="aboutText" class="text-secondary">Provides a full service range</p>
+                <p id="aboutDesc">Ability to put themselves in the merchant's shoes. It is <br> meant to partner on the long run, and work as an extension <br> of the merchant's team.</p>
+                <button id="aboutBtn" class="text-secondary border-0 bg-light rounded-2"><a href="#aboutSection" class="text-decoration-none text-secondary">ABOUT US</a></button>
+            </div>
+        </section>
+        <section id="expSection" class="mx-2 d-sm-flex flex-sm-row">
+            <div id="expDiv" class="mx-4 mobileExpDiv">
+                <div id="expDiv1" class="">
+                    <h3 class="expTitle">42%</h3>
+                    <p class="expDesc">Years of experience</p>
+                </div>
+                <div id="expDiv2">
+                    <h3 class="expTitle">73+</h3>
+                    <p class="expDesc">Agency members</p>
+                </div>
+                <div id="expDiv3">
+                    <h3 class="expTitle">5.000</h3>
+                    <p class="expDesc">Projects complete</p>
+                </div>
+            </div>
+            <div id="expDiv" class="DeskExpDiv">
+      <div id="expDiv1">
+        <h3 class="exp-title" id="exp-title1">42%</h3>
+        <p class="exp-text">Years of experience</p>
+      </div>
+      <div id="expDiv2">
+        <h3 class="exp-title" id="exp-title2">73+</h3>
+        <p class="exp-text">Agency members</p>
+      </div>
+      <div id="expDiv3">
+        <h3 class="exp-title" id="exp-title3">5.000</h3>
+        <p class="exp-text">Projects complete</p>
+      </div>
+    </div>
+        </section>
+        <section id="infoSection" class="container-sm d-sm-flex flex-sm-row">
+            <div id="infoDivLeft">
+                <h5 id="infoTitle" class="text-warning">HOW WE WORK</h5>
+                <h3 id="infoHeading" class="text-secondary">Making Your Projects <br> Look Awesome</h3>
+                <p id="infoText">Technical skills, design, business understanding, ability to <br> put themselves in the merchant's shoes.</p>
+                <p id="infoDesc" class="text-secondary">Read More</p>
+            </div>
+            <div id="infoDivRight">
+                <div id="info1" class="d-flex gap-5 align-items-center">
+                    <h1 class="infoTitle">1</h1>
+                    <h4 class="infoHeading">Full service range including</h4>
+                </div>
+                <div id="info2" class="d-flex gap-5 align-items-center">
+                    <h1 class="infoTitle">2</h1>
+                    <h4 class="infoHeading">Technical skills, design, business</h4>
+                </div>
+                <div id="info3" class="d-flex gap-5 align-items-center">
+                    <h1 class="infoTitle">3</h1>
+                    <h4 class="infoHeading">Themselves in the merchant's</h4>
+                </div>
+            </div>
+        </section>
+        <section id="videoSection" class="mx-4 d-sm-flex flex-sm-row justify-content-sm-evenly align-items-sm-center mx-4">
+            <div id="videoDivLeft" class=" position-relative">
+                <img src="./Assets/Bitmap.jpg" alt="vidimg" class="img-fluid px-1 rounded-2">
+                <img src="./Assets/play.svg" alt="playbtn" class="position-absolute top-50 start-50 translate-middle">
+                <img src="./Assets/time.svg" alt="timestamp" class="position-absolute bottom-0 start-0 ps-5 pb-3">
+            </div>
+            <div id="videoDivRight" class="mt-4">
+                <h5 id="vidTitle" class="text-warning">VIDEO REEL</h5>
+                <h3 id="vidHeading" class="text-secondary">Unlock The Greatest <br> Value Possible</h3>
+                <p id="vidDesc" class="pt-2">Design, business understanding, ability to put themselves <br> in the merchant's shoes meant to partner.</p>
+            </div>
+        </section>
+        </section>
+        <section class="bg-dark">
+            <section id="portfolioSection" class="mx-4">
+              <div id="portfolioText">
+                <h5 id="portfolioTitle" class="text-warning">PORTFOLIO</h5>
+                <h3 id="portfolioHeading" class="text-light">Latest Work</h3>
+                <select id="portfolioSelect" class="py-3 rounded">
+      <option value="">Show All</option>
+      <option>Book a call</option>
+      <option>Inquiry</option>
+      <option>Feedback</option>
+      <option>Other</option>
+    </select>
+              </div>
+              <h5 class="text-warning deskport" id="portfolio-heading">PORTFOLIO</h5>
+          <h2 id="portfolio-title" class="deskport">Latest Work</h2>
+              <div class="optDiv">
+        <p class="opt-text" style="color: rgba(255, 255, 255, 1);">Show All <sup style="color: rgba(255, 255, 255, 0.64);">14</sup></p>
+        <p class="opt-text">Design <sup class="suptext">6</sup> </p>
+        <p class="opt-text">Branding <sup class="suptext">4</sup> </p>
+        <p class="opt-text">Illustration <sup class="suptext">3</sup> </p>
+        <p class="opt-text">Motion <sup class="suptext">1</sup> </p>
+      </div>
+                <div id="imgDiv" class="portfolioMobileImg d-flex flex-column gap-4">
+                    <div class="imgCards rounded-2 position-relative d-sm-none" id="imgCardDiv1">
+                        <img src="./Assets/portImg1.jpg" alt="portimg" class="rounded-2">
+                        <p class="imgCardTitle position-absolute" id="imgCardTitle1">Design</p>
+                        <h3 class="imgCardDesc position-absolute">SOFA</h3>
+                    </div>
+                    <div class="imgCards rounded-2 position-relative d-sm-none" id="imgCardDiv2">
+                        <img src="./Assets/portImg2.jpg" alt="portimg" class="rounded-2">
+                        <p class="imgCardTitle position-absolute" id="imgCardTitle2">Branding</p>
+                        <h3 class="imgCardDesc position-absolute">KeyBoard</h3>
+                    </div>
+                    <div class="imgCards rounded-2 position-relative d-sm-none" id="imgCardDiv3">
+                        <img src="./Assets/portImg3.jpg" alt="portimg" class="rounded-2">
+                        <p class="imgCardTitle position-absolute" id="imgCardTitle3">Illustration</p>
+                        <h3 class="imgCardDesc position-absolute">Work Media</h3>
+                    </div>
+                    <!-- <div class="imgCards" id="imgCardDiv4">
+                        <p>Motion</p>
+                        <h3>DDDone</h3>
+                    </div> -->
+                </div>
+                <div class="container portfolioDesktopImg" id="imgContainer">
+            <div class="d-flex justify-content-center gap-4">
+              <div class="position-relative cards">
+                <img src="./Assets/Img1.svg" alt="" class="img-fluid">
+                <p class="imgDivText" id="imgDivText1">Design</p>
+                <h3 class="imgDivHeading" id="imgDivHeading1">SOFA</h3>
+              </div>
+              <div class="position-relative cards">
+                <img src="./Assets/Img2.svg" alt="" class="img-fluid">
+                <p class="imgDivText" id="imgDivText2">Branding</p>
+                <h3 class="imgDivHeading" id="imgDivHeading2">KeyBoard</h3>
+              </div>
+
+            </div>
+            <div class="d-flex justify-content-center gap-4" style="margin-top: 30px;">
+              <div class="position-relative cards">
+                <img src="./Assets/Img3.svg" alt="" class="img-fluid">
+                <p class="imgDivText" id="imgDivText3">Illustration</p>
+                <h3 class="imgDivHeading" id="imgDivHeading3">Work Media</h3>
+              </div>
+              <div class="position-relative cards">
+                <img src="./Assets/Img4.svg" alt="" class="img-fluid">
+                <p class="imgDivText" id="imgDivText4">Motion</p>
+          <h3 class="imgDivHeading" id="imgDivHeading4">DDDone</h3>
+              </div>
+            </div>
+            
+          </div>
+                <div>
+                  <button id="expBtn" class="text-light bg-dark">EXPLORE MORE</button>
+                </div>
+            </section>
+            <section id="adSection" class="mx-4">
+                <div id="adDivContainer" class="container-sm align-items-sm-center d-sm-flex flex-sm-row justify-content-sm-around bg-primary rounded-2 px-2 position-relative">
+                <div id="adDiv1" class="px-4">
+                    <img src="./Assets/staricon.svg" id="staricon" class="position-absolute ps-2 top-0 start-0 start-sm-5 translate-middle-y" alt="starimg">
+                    <h5 id="adTitle" class="text-warning">GET STARTED</h5>
+                    <h4 id="adHeading" class="text-secondary">We Help Companies <br> Move Faster</h4>
+                    <button id="adBtn" class="text-light bg-warning border-0 rounded-2 mt-2 mb-5">
+                      <a href="#contactSection" class="text-decoration-none text-light">CONTACT US</a>
+                    </button>
+                </div>
+                <div id="adDiv2">
+                    <img src="./Assets/adimg1.svg" alt="adimg" class="img-fluid">
+                </div>
+                <div id="adDiv3" class="mx-2">
+                    <img src="./Assets/adimg2.svg" alt="girlimg" id="girlImg" class="position-relative z-1 img-fluid">
+                    <img src="./Assets/adimg3.svg" alt="cloudimg" id="cloudImg" class="position-absolute img-fluid" >
+                </div>
+                </div>
+            </section>
+            <!-- For Desktop -->
+             <section id="devContainerDesktop" class="container">
+                <div id="devDivDesktop">
+                  <div>
+                <h5 id="devTitle" class="text-warning mb-4">OUR TEAM</h5>
+                <h3 id="devHeading" class="text-white">Team of Designers <br> and Developers</h3>
+                </div>
+                <img src="./Assets/arrow.svg" alt="arrow">
+                </div>
+              <swiper-container id="swiperBig" class="mySwiper" pagination="true" slides-per-view="4">
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev1.svg" alt="" class="devImg devone">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Azah Anyeni</h4>
+                  <p class="devDes">Designer</p>
+                </div>
+              </div>      
+              <!-- demo -->
+
+              <!-- demo --> 
+    </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev2.svg" alt="" class="devImg devtwo">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Roelof Bekkenenks</h4>
+                  <p class="devDes">React Developer</p>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev3.svg" alt="" class="devImg devthree">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Leonardo Oliveira</h4>
+                  <p class="devDes">Illustrator</p>
+                </div>
+              </div>
+            </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev4.svg" alt="" class="devImg devfour">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Izabella Tabakova</h4>
+                  <p class="devDes">Product Designer</p>
+                </div>
+              </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev3.svg" alt="" class="devImg devfour">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Izabella Tabakova</h4>
+                  <p class="devDes">Product Designer</p>
+                </div>
+              </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev2.svg" alt="" class="devImg devfour">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Izabella Tabakova</h4>
+                  <p class="devDes">Product Designer</p>
+                </div>
+              </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="./Assets/Dev1.svg" alt="" class="devImg devfour">
+                </div>
+                <div class="devImgInfo">
+                  <h4 class="devName text-light">Izabella Tabakova</h4>
+                  <p class="devDes">Product Designer</p>
+                </div>
+              </div>
+    </swiper-slide>
+  </swiper-container>
+                </section>
+            <!-- For Desktop -->
+            <section id="devContainer" class="mx-4 container-sm">
+                <div class="mb-5">
+                <h5 id="devTitle" class="text-warning mb-4">OUR TEAM</h5>
+                <h3 id="devHeading" class="text-white">Team of Designers <br> and Developers</h3>
+                </div>
+                  <!-- Swiper for Mobile -->
+  <swiper-container class="mySwiper" id="mobileSwiper" pagination="true" pagination-clickable="true" slides-per-view="1.2"
+    space-between="20" centered-slides="false">
+    <swiper-slide class="mb-5">
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="/Assets/Dev1.svg" alt="" class="devImg devone">
+                </div>
+                <div class="devImgInfo mt-4">
+                  <h4 class="devName text-light">Azah Anyeni</h4>
+                  <p class="devDes">Designer</p>
+                </div>
+              </div>
+            </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="/Assets/Dev2.svg" alt="" class="devImg devtwo">
+                </div>
+                <div class="devImgInfo mt-4">
+                  <h4 class="devName text-light">Roelof Bekkenenks</h4>
+                  <p class="devDes">React Developer</p>
+                </div>
+              </div>
+            </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="/Assets/Dev3.svg" alt="" class="devImg devthree">
+                </div>
+                <div class="devImgInfo mt-4">
+                  <h4 class="devName text-light">Leonardo Oliveira</h4>
+                  <p class="devDes">Illustrator</p>
+                </div>
+              </div>
+            </swiper-slide>
+    <swiper-slide>
+      <div class="devDiv">
+                <div class="devImgDiv">
+                  <img src="/Assets/Dev4.svg" alt="" class="devImg devfour">
+                </div>
+                <div class="devImgInfo mt-4">
+                  <h4 class="devName text-light">Izabella Tabakova</h4>
+                  <p class="devDes">Product Designer</p>
+                </div>
+              </div>
+            </swiper-slide>
+  </swiper-container>
+    <!-- Swiper for Mobile -->
+            </section>
+            <section id="pricingContainer" class="bg-primary">
+                <div id="pricingDiv" class="mx-4">
+                    <h5 id="devTitle" class="text-warning">PRICING</h5>
+                    <h3 id="devHeading" class="text-secondary">Check Our Pricing Plans</h3>
+                </div>
+                <div id="pricingPlan" class="container-sm d-sm-flex justify-content-sm-center align-items-sm-end rounded-2">
+                    <div id="pricingplan1" class="px-4 pt-4 pb-5 ">
+                        <h5 class="pricingTitle">CONSULTATION</h5>
+                        <h3 class="pricingHeading">Free</h3>
+                        <p class="pricingDesc">Your digital marketing efforts, <br> instead of handling in-house.</p>
+                        <div id="featuresDiv" class="mb-3">
+                         <div class="features  d-flex gap-4 align-items-center">
+                        <img src="./Assets/plus.svg" alt="features">
+                        <p class="pricingText pt-3 text-secondary">Brand Design</p>
+                    </div>
+                    <div class="featuresDiv d-flex gap-4 align-items-center">
+                        <img src="./Assets/minus.svg" alt="features">
+                        <p class="pricingText pt-3">Market Analysis</p>
+                    </div>
+                    <div class="featuresDiv d-flex gap-4 align-items-center">
+                        <img src="./Assets/minus.svg" alt="features">
+                        <p class="pricingText pt-3">Production</p>
+                    </div>
+                    </div>
+                    <button id="pricingBtn1" class="pricingBtn bg-light rounded-2"><a href="#contactSection" class="text-decoration-none text-secondary">CONTACT US</a></button>
+                    </div>
+                    <div id="pricingplan2" class="bg-light pt-4 px-4 pb-5">
+                      <p id="pricingTag" class="bg-warning">Popular</p>
+                        <h5 class="pricingTitle">DESIGN</h5>
+                        <h3 class="pricingHeading">$1500</h3>
+                        <p class="pricingDesc">Provide your business with a variety of digital solutions to promote.</p>
+                        <div id="featuresDiv" class="mb-3">
+                         <div class="features d-flex gap-4 align-items-center">
+                        <img src="./Assets/plus.svg" alt="features">
+                        <p class="pricingText pt-3 text-secondary">Brand Design</p>
+                    </div>
+                    <div class="featuresDiv d-flex gap-4 align-items-center">
+                        <img src="./Assets/plus.svg" alt="features">
+                        <p class="pricingText pt-3 text-secondary">Market Analysis</p>
+                    </div>
+                    <div class="featuresDiv d-flex gap-4 align-items-center">
+                        <img src="./Assets/minus.svg" alt="features">
+                        <p class="pricingText pt-3">Production</p>
+                    </div>
+                    </div>
+                    <button id="pricingBtn2" class="pricingBtn bg-warning rounded-2"><a href="#contactSection" class="text-decoration-none text-light">CONTACT US</a></button>
+                    </div>
+                    <div id="pricingplan3" class="pt-4 px-4 pb-5">
+                        <h5 class="pricingTitle">DESIGN+CODE</h5>
+                        <h3 class="pricingHeading">$2900</h3>
+                        <p class="pricingDesc">Help you hit your marketing goals and grow your business.</p>
+                        <div id="featuresDiv" class="mb-3">
+                         <div class="features d-flex gap-4 align-items-center">
+                        <img src="./Assets/plus.svg" alt="features">
+                        <p class="pricingText pt-3 text-secondary">Brand Design</p>
+                    </div>
+                    <div class="featuresDiv d-flex gap-4 align-items-center">
+                        <img src="./Assets/plus.svg" alt="features">
+                        <p class="pricingText pt-3 text-secondary">Market Analysis</p>
+                    </div>
+                    <div class="featuresDiv d-flex gap-4 align-items-center">
+                        <img src="./Assets/plus.svg" alt="features">
+                        <p class="pricingText pt-3 text-secondary">Production</p>
+                    </div>
+                    </div>
+                    <button id="pricingBtn3" class="pricingBtn bg-light rounded-2"><a href="#contactSection" class="text-decoration-none text-secondary">CONTACT US</a></button>
+                    </div>
+                </div>
+            </section>
+            <section id="faqContainer" class="bg-primary px-4">
+              <div class="container d-sm-flex flex-sm-row justify-content-sm-evenly align-items-sm-start">
+                <div id="faqDivLeft">
+                <h5 id="faqTitle" class="text-warning">FAQ</h5>
+                <h3 id="faqHeading" class="text-secondary">Frequently Asked Questions</h3>
+                <p id="faqDesc">A digital agency is a business you hire to outsource your <br> digital marketing efforts, instead of handling in-house.</p>
+                <a href="#contactSection" id="faqBtn" class="text-secondary text-decoration-none">CONTACT US</a>
+                </div>
+                <div id="faqDivRight" class="mt-5">
+                    <div class="accordion" id="accordionExample">
+  <!-- Accordion Item 1 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button custom-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <span>A digital agency is a business</span>
+        <img src="/Assets/up.svg" alt="Play" class="btn-img">
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <p>Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span>Hire to outsource your digital</span>
+        <img src="/Assets/down.svg" alt="Play" class="btn-img">
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <p>You can hire a digital agency to outsource your digital work, gaining access to expert resources and saving time and cost.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span>Marketing efforts</span>
+        <img src="/Assets/down.svg" alt="Play" class="btn-img">
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <p>A digital agency can streamline your marketing efforts by using proven strategies, modern tools, and skilled teams.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <span>Can provide your business</span>
+        <img src="/Assets/down.svg" alt="Play" class="btn-img">
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <p>They can provide your business with specialized services such as SEO, content creation, social media management, and analytics.</p>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+            </section>
+            <section id="contactSection" class="bg-primary mobileMap">
+                <div class="mx-4" id="formDiv">
+          <div class="bg-light">
+            <h4 class="form-title mb-4 mx-3">Get In Touch</h4>
+            <form action="" class="needs-validation" novalidate>
+  <!-- Email Field -->
+  <div class="mb-3">
+    <input type="email" class="form-control" id="email" placeholder="Your email" required>
+    <div class="invalid-feedback">
+      Please enter a valid email address.
+    </div>
+  </div>
+
+  <!-- Subject Dropdown -->
+  <div class="mb-3">
+    <select id="selectborder" class="form-select" required>
+      <option value="">Subject</option>
+      <option>Book a call</option>
+      <option>Inquiry</option>
+      <option>Feedback</option>
+      <option>Other</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a subject.
+    </div>
+  </div>
+
+  <!-- Message Field -->
+  <div class="mb-3">
+    <textarea id="taborder" class="form-control" rows="5" placeholder="Message" required></textarea>
+    <div class="invalid-feedback">
+      Please enter your message.
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="submit" class="formBtn">SUBMIT NOW</button>
+</form>
+          </div>
+        </div>
+        <section id="mapSection" class="position-relative">
+            <img src="./Assets/pin.svg" alt="mapimg" class="position-absolute top-50 start-50 translate-middle">
+        </section>
+            </section>
+            <!-- MAP DESKTOP -->
+<section id="mapSection" class="img-fluid">
+      <div class="row">
+        <div class=" column-sm-6 formDiv">
+          <h4 class="form-title">Get In Touch</h4>
+          <form action="" class="needs-validation" novalidate>
+  <!-- Email Field -->
+  <div class="mb-3">
+    <input type="email" class="form-control" id="email" placeholder="Your email" required>
+    <div class="invalid-feedback">
+      Please enter a valid email address.
+    </div>
+  </div>
+
+  <!-- Subject Dropdown -->
+  <div class="mb-3">
+    <select id="selectborder" class="form-select" required>
+      <option value="">Subject</option>
+      <option>Book a call</option>
+      <option>Inquiry</option>
+      <option>Feedback</option>
+      <option>Other</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a subject.
+    </div>
+  </div>
+
+  <!-- Message Field -->
+  <div class="mb-3">
+    <textarea id="taborder" class="form-control" rows="5" placeholder="Message" required></textarea>
+    <div class="invalid-feedback">
+      Please enter your message.
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <button class="formBtn">SUBMIT NOW</button>
+</form>
+
+      </div>
+        </div>
+      <div class="pinDiv">
+        <img src="/Assets/pin.svg" alt="pin">
+      </div>
+    </section>
+            <!-- MAP DESKTOP -->
+        </section>
+    </main>
+    <footer class="bg-primary">
+        <div id="footerDiv" class="flex-sm-row justify-content-sm-around text-center d-flex flex-column mx-4">
+        <div id="footerDiv1">
+            <h4 class="footerTitle mb-5">Agency</h4>
+        </div>
+        <div id="footerDiv2">
+            <h5 class="footerHeading text-warning">MENU</h5>
+            <p class="footerText"> <a href="#aboutSection">About</a></p>
+            <p class="footerText"> <a href="#infoSection">Services</a></p>
+            <p class="footerText"> <a href="#faqContainer">Blog</a></p>
+            <p class="footerText"> <a href="#contactSection">Contact</a></p>
+        </div>
+        <div id="footerDiv3">
+            <h5 class="footerHeading text-warning">SERVICE</h5>
+            <p class="footerText">Design</p>
+            <p class="footerText">Development</p>
+            <p class="footerText">Marketing</p>
+            <p class="footerText">See More</p>
+        </div>
+        <div id="footerDiv4" class="d-flex justify-content-center gap-3">
+          <div class="footerImgDiv">
+            <a href="https://www.facebook.com" class="socials"><img src="./Assets/facebook.svg" class="footerImg" alt="fb"></a>
+          </div>
+            <div class="footerImgDiv">
+              <a href="https://www.x.com" class="socials"><img src="./Assets/twitter.svg" class="footerImg" alt="x"></a>
+            </div>
+            <div class="footerImgDiv">
+              <a href="https://www.instagram.com/accounts/login/?hl=en" class="socials"><img src="./Assets/instagram.svg" class="footerImg" alt="ig"></a>
+            </div>
+            
+        </div>
+        </div>
+        <div id="copyDiv" class="mx-5">
+          <div class="d-sm-flex justify-content-sm-around">
+            <p id="copyTitle" class="text-center mb-4">Copyright © 2022 Laaqiq. <br> All Rights Reserved.</p>
+            <div class="d-flex justify-content-between justify-content-sm-between gap-sm-5">
+                <p class="copyText">Terms of Use</p>
+                <p class="copyText">Privacy Policy</p>
+            </div>
+          </div>
+            <p style="text-align: center;margin-bottom: 0px;" class="text-secondary">Created by Akshay Gawde</p>
+        </div>
+    </footer>
+        <!-- Lightbox Overlay -->
+<div class="lightbox" id="lightbox">
+  <span class="close-btn" id="closeBtn">&times;</span>
+  <div class="lightbox-content">
+    <img src="" alt="Lightbox Image" id="lightboxImg" />
+    <div class="lightbox-text">
+      <h3 id="lightboxName"></h3>      <!-- For dev name -->
+      <p id="lightboxRole"></p>         <!-- For dev role -->
+      <p id="lightboxQuote" style="font-style: italic; margin-top: 12px;"></p>   <!-- New for quote -->
+      <p id="lightboxCompany" style="font-weight: bold; opacity: 0.8;"></p>     <!-- New for company -->
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        <script src="./js/swiper.js"></script>
+        <script src="./js/form.js"></script>
+        <script src="./js/lightbox.js"></script>    
+</body>
+</html>
