@@ -1,18 +1,12 @@
-body{
-        overflow-x: hidden;
-    }
-@media (min-width:375px) and (max-width:490px)
-{
+@media(max-width:450px){
     *{
     box-sizing: border-box;
 font-family: "Epilogue", sans-serif;
 margin: 0;
+/* overflow-x: hidden; */
 /* overflow: hidden; */
  /* outline: 1px solid red; */
 }
-
-
-
 #heroTitle{
     font-weight: 400;
     font-size: 16px;
@@ -20,14 +14,14 @@ margin: 0;
     letter-spacing: 3px;
 }
 
-#heroSubTitle{
+#heroHeading{
     font-weight: 800;
     font-size: 56px;
     line-height: 64px;
     letter-spacing: -1px;
 }
 
-#starimg{
+#heroHeading br{
     display: none;
 }
 
@@ -36,33 +30,51 @@ margin: 0;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color: lightgray;
 }
 
-.lightgrey{
-    color: #ffffffa3;
-}
-
-#hero-btn1{
+#heroBtn1{
     width: 154px;
     height: 48px;
     font-weight: 900;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
 }
 
-#hero-btn2{
+#heroBtn2{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
 }
-
+#heroBtn2>a{
+    color: rgba(255, 255, 255, 1);
+}
 #manText{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color:rgba(255, 255, 255, 0.64);
+}
+
+#manDesc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+#bannerDiv{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(243, 209, 191, 1);
+}
+
+#aboutSection{
+    padding-top: 50px;
 }
 
 #aboutTitle{
@@ -79,6 +91,10 @@ margin: 0;
     letter-spacing: 0px;
 }
 
+#aboutHeading br{
+    display: none;
+}
+
 #aboutText{
     font-weight: 400;
     font-size: 20px;
@@ -86,51 +102,31 @@ margin: 0;
     letter-spacing: 0px;
 }
 
-#aboutDivLeft{
-    border-top:1px solid rgba(243, 209, 191, 1);
-    padding-top: 80px;
-}
 #aboutDesc{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color:#391400A3;
 }
 
-.about-btn{
+#aboutDesc br{
+    display: none;
+}
+
+#aboutBtn{
     width: 138px;
     height: 48px;
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(57, 20, 0, 1);
-    border: none;
     font-weight: 900;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0px;
-    border-radius: 5px;
-    box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
 }
 
-.exp-title{
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: 0px;
+#expSection{
+    margin-top: 100px;
 }
 
-.exp-text{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0px;
-
-}
-
-#expDiv{
-    /* border: 1px solid rgba(243, 209, 191, 1); */
-    border-radius: 6px;
-    margin: 100px 0;
-}
 #expDiv1{
    border : 1px solid rgba(243, 209, 191, 1);
    border-radius: 6px 6px 0 0;
@@ -138,8 +134,8 @@ margin: 0;
 
 #expDiv2{
     border : 1px solid rgba(243, 209, 191, 1);
-    border-top: none;
-    border-bottom: none;
+    /* border-top: none;
+    border-bottom: none; */
 }
 
 #expDiv3{
@@ -147,21 +143,57 @@ margin: 0;
    border-radius:0 0 6px 6px;
 }
 
-#infoheading{
+
+.expTitle{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #391400;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+
+.expDesc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #391400;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+#infoSection{
+    margin-top: 100px;
+    border-bottom: 1px solid rgba(243, 209, 191, 1);
+}
+
+#infoDivRight{
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+#infoTitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
 }
 
-#infotitle{
+#infoHeading{
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
 }
 
-#infosub-title{
+#infoHeading br{
+    display: none;
+}
+
+#infoText{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -169,24 +201,33 @@ margin: 0;
     color: #391400A3;
 }
 
-#info-text{
+#infoDesc{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    margin-top: 20px;
 }
 
-.infotitleright{
+.infoTitle{
     font-weight: 800;
     font-size: 72px;
     line-height: 80px;
     letter-spacing: -2px;
+    color: #391400;
 }
 
-#vidDiv{
-    border-top:1px solid rgba(243, 209, 191, 1);
-    padding-bottom: 100px;
-    padding-top: 80px;
+.infoHeading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #391400;
+}
+
+#videoSection{
+    margin-top: 60px;
+    padding-bottom: 80px;
 }
 
 #vidTitle{
@@ -203,101 +244,88 @@ margin: 0;
     letter-spacing: 0px;
 }
 
-#vidText{
+#vidHeading br{
+    display: none;
+}
+
+#vidDesc{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color:#391400A3;
+}
+
+#vidDesc br{
+    display: none;
 }
 
 #portfolioSection{
-    padding-bottom: 100px;
+    padding-top: 80px;
 }
 
-#portfolioHeaderDiv{
-    padding-top: 100px;
-}
 
-#portfolio-heading{
+#portfolioTitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
 }
 
-#portfolio-title{
+#portfolioHeading{
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
+}
+
+#portfolioText{
+    text-align: center;
 }
 
 #portfolioSelect{
-    width: 360px;
-    color:rgba(57, 20, 0, 0.64);
-    padding-left: 10px;
+    width: 329px;
 }
 
-.portfolioImg{
-    width: 470px;
-    height: 456px;
-
+#imgDiv{
+    margin-top: 50px;
 }
 
-.imgDivHeading{
+.imgCardTitle{
+    bottom: 100px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    border-radius: 50px;
+    padding: 2px 0;
+    color: #391400;
+    background-color: white;
+    text-align: center;
+}
+
+#imgCardTitle1{
+    width: 84px;
+}
+#imgCardTitle2{
+    width: 102px;
+}
+#imgCardTitle3{
+    width: 116px;
+}
+
+.imgCardDesc{
+    bottom: 40px;
+    left: 30px;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
+    color: white;
 }
 
-#imgDivText1{
-    width: 84px;
-    height: 38px;
-    background-color: white;
-    color: #391400;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0px;
-    bottom: 120px;
-    left: 30px;
-}
-
-#imgDivText2{
-    width: 102px;
-    background-color: white;
-    color: #391400;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0px;
-    bottom: 120px;
-    left: 25px;
-}
-#imgDivText3{
-    width: 116px;
-    height: 38px;
-    background-color: white;
-    color: #391400;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0px;
-    bottom: 120px;
-    left: 25px;
-}
-
-#exploreBtn{
+#expBtn{
     width: 170px;
     height: 48px;
     font-weight: 900;
@@ -305,6 +333,13 @@ margin: 0;
     line-height: 100%;
     letter-spacing: 0px;
     border: 1px solid rgba(255, 255, 255, 0.2957);
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#adSection{
+    margin-top: 150px;
 }
 
 #adTitle{
@@ -321,69 +356,87 @@ margin: 0;
     letter-spacing: 0px;
 }
 
-#adDiv{
-    width: 360px;
-    height: 950px;
-    margin-top: 100px;
+#adHeading br{
+    display: none;
 }
 
-#adDivOne{
+#adBtn{
+    width: 154px;
+    height: 48px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+#adDiv1{
     padding-top: 100px;
 }
 
-.adBtn{
-    border: none;
-        border-radius: 5px;
-        background-color:rgba(239, 109, 88, 1);
-        color: rgba(255, 255, 255, 1);
-        padding: 16px 30px;
-        font-size: 14px;
-        font-weight: 900;
-        line-height: 100%;
-        letter-spacing: 0px;
-        text-decoration: none;
-}
-
-.adCardImg{
-    margin-left: -38px;
-}
-
 #girlImg{
-    margin-left: 60px;
-    bottom: 2px;
-
+    padding-left: 40px;
 }
 
 #cloudImg{
-    right: 72px;
-    bottom: 50px;
+    right: 40px;
+    bottom: 48px;
 }
 
-#teamheading{
+#swiperBig{
+    display: none;
+}
+
+#devContainerDesktop{
+    display: none;
+}
+
+#devContainer{
+    margin-top: 120px;
+}
+
+#devTitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
 }
 
-#teamtitle{
+#devHeading{
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
-
 }
 
-#devContainer{
-    margin-top: 120px;
-    
+#devHeading br{
+    display: none;
+}
+
+.devImgDiv{
+    border: 1px solid rgba(58, 60, 86, 1);
+    text-align: center;
+    height: 272px;
+    width: 270px;
+}
+
+.devone{
+    padding-top: 20px;
+}
+.devtwo{
+    padding-top: 35px;
+}
+.devthree{
+    padding-top: 30px;
+}
+.devfour{
+    padding-top: 35px;
 }
 
 .devName{
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    letter-spacing: 0px
+    letter-spacing: 0px;
 }
 
 .devDes{
@@ -391,247 +444,122 @@ margin: 0;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
-    color:rgba(255, 255, 255, 0.64);
-}
-
-.arrowbtn{
-    display: none;
-}
-
-/* For Dev Slider */
-
-swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-
-    swiper-slide {
-      /* text-align: center; */
-      font-size: 18px;
-      display: flex;
-      justify-content:space-evenly;
-      align-items: center;
-      margin-bottom: 50px;
-    }
-
-    swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-#swiperBig{
-    display: none;
-}
-
-swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-
-    swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-/* For Dev Slider */
-.devDes{
     color: #FFFFFFA3;
-}
-.devImgDiv{
-        border: 1px solid rgba(58, 60, 86, 1);
-        /* width: 270px; */
-        height: 272px;
-        /* padding-top: 20px;
-        padding-left:20px;
-        padding-right:20px; */
-        margin-bottom: 20px;
-        text-align: center
-    }
 
-.devone{
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .devtwo{
-        padding-top: 20px;
-
-    }
-    
-    .devthree{
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .devfour{
-        padding-top: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .devImgInfo{
-        margin-bottom: 50px;
-    }
-
-/* Swiper 1 */
-
-/* Swiper 1 */
-
-.priceCardOne{
-    width: 329px;
-    height: 593px;
-    border: 1px solid rgba(243, 209, 191, 1);
-}
-.priceCardTwo{
-    width: 329px;
-    height: 593px;
-    background-color: white;
-    border: 1px solid rgba(243, 209, 191, 1);
 }
 
-.priceCardThree{
-    width: 329px;
-    height: 593px;
-    border: 1px solid rgba(243, 209, 191, 1);
-    border-radius: 0 5px 5px 0;
-    }
-
-#price-title{
+#devTitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
 }
 
-#price-heading{
+#devHeading{
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
 }
 
-.pricecard-title{
+#pricingDiv{
+    padding-top: 100px;
+}
+
+#pricingPlan{
+    border: 1px solid rgba(243, 209, 191, 1);
+}
+
+.pricingTitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
+    color: #EF6D58;
 }
 
-.pricecard-heading{
+.pricingHeading{
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
+    color: #391400;
 }
 
-.pricecard-desc{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing:0px;
-    color: rgba(57, 20, 0, 0.64);
-}
-
-.featuretext{
+.pricingDesc{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color: #391400A3;
+
 }
 
-.priceBtn{
-    color: rgba(57, 20, 0, 1);
+.pricingDesc br{
+    display: none;
+}
+
+
+.pricingText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #391400A3;
+}
+
+.pricingBtn{
     width: 154px;
     height: 48px;
-    border-radius: 6px;
+    border: none;
     font-weight: 900;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0px;
-    text-decoration: none;
+    box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
 }
 
-.priceBtn>button{
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 100%;
+#pricingTag{
+    width: 92px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
     letter-spacing: 0px;
 }
 
-.priceBtnOne , .priceBtnThree{
-    width: 154px;
-        height: 48px;
-        padding: 16px 30px;
-        background-color: rgba(255, 255, 255, 1);
-        box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
-        border-radius: 6px;
-        margin-top: 20px;
+#faqContainer{
+    padding-top: 100px;
 }
 
-.priceBtnTwo{
-        color: rgba(255, 255, 255, 1);
-        background-color: rgba(239, 109, 88, 1);
-        width: 154px;
-        height: 48px;
-        padding: 16px 30px;
-        border-radius: 6px;
-        margin-top: 20px;
-    }
-
-    .priceCardTwotag{
-        width: 92px;
-        height: 38px;
-        border-radius: 19px;
-        margin-top: -10px;
-        margin-bottom: 20px;
-        padding-top: 5px;
-        color:rgba(255, 255, 255, 1);
-        background-color:rgba(239, 109, 88, 1);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: 0px;
-        text-align: center;
-    }
-
-#faq-heading{
+#faqTitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
-    margin-top: 100px;
 }
 
-#faq-title{
+#faqHeading{
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0px;
 }
 
-#faq-text{
+#faqDesc{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
-    color:rgba(57, 20, 0, 0.64);
+    color: #391400A3;
 }
 
-#faq-contact{
+#faqDesc br{display: none}
+
+#faqBtn{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -712,12 +640,11 @@ swiper-container {
         margin-top: -20px;
       }
 /* Accordian */
-
 /* Form */
 .invalid-feedback {
-  position: absolute;
-  bottom: -1.4rem; /* adjust depending on your spacing */
-  left: 0;
+  position: relative;
+  bottom: 0; /* adjust depending on your spacing */
+  left: 10px;
   font-size: 0.875rem;
   color: red;
   display: none;
@@ -731,7 +658,7 @@ swiper-container {
 }
 
 #formDiv{
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }    
     .form-title{
@@ -791,9 +718,11 @@ swiper-container {
         margin-bottom: 50px;
     }
 /* Form */
-
+.desktopMap{
+    display:none;
+}
 #mapSection{
-        background-image: url(/Assets/map.jpg);
+    background-image: url(/Assets/map.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -801,35 +730,22 @@ swiper-container {
         height: 720px;
         position: relative;
         margin-top: 80px;
-    }
-    
-    /* .formSection{
-        width: 1170px;
-        border: 1px solid rgba(255, 0, 0, 0);
-    } */
-     .mb-3 {
-  position: relative;
 }
-
-/* Footer */
 
 #footerDiv{
     border-bottom:1px solid rgba(243, 209, 191, 1);
 }
-#footerheading{
-    margin-top: 100px;
-    margin-bottom: 80px;
+
+#footerDiv4{
+    padding: 50px 0;
+}
+
+.footerTitle{
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0px;
-}
-
-#footerTitle{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 3px;
+    margin-top: 100px;
 }
 
 .footerText{
@@ -837,6 +753,12 @@ swiper-container {
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+    color: #391400;
+}
+
+.footerText > a{
+    text-decoration: none;
+    color: #391400;
 }
 
 .footerImg{
@@ -855,27 +777,10 @@ swiper-container {
     
     }
 
-    #footerDivFour{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+#copyDiv{
+    margin-top: 40px;
+}
 
-    .copyText{
-        margin-top: 40px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 32px;
-        letter-spacing: 0px;
-        color:rgba(57, 20, 0, 0.64);
-    }
-
-    .tocTex{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 32px;
-        letter-spacing: 0px;
-    }
-/* Footer */
     /* Lightbox styles */
     .lightbox {
       display: none; /* hidden by default */
@@ -961,7 +866,19 @@ swiper-container {
   transition: transform 0.3s ease;
   cursor: zoom-in;
 }
+.portfolioDesktopImg{
+    display: none;
+}
 
+.optDiv{
+    display: none;
+}
+.deskport{
+    display: none;
+}
+.DeskExpDiv{
+    display: none;
 }
 
 
+}
