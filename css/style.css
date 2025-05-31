@@ -605,12 +605,12 @@ swiper-container {
 /* Form */
 .invalid-feedback {
   position: relative;
-  bottom: 0; /* adjust depending on your spacing */
+  bottom: 0; 
   left: 10px;
   font-size: 0.875rem;
   color: red;
   display: none;
-  white-space: nowrap; /* keep in one line or wrap as needed */
+  white-space: nowrap; 
 }
 
 .was-validated .form-control:invalid ~ .invalid-feedback,
@@ -748,23 +748,19 @@ swiper-container {
         position: relative;
         padding-top: 20px ;
     }
-    
-    /* .formSection{
-        width: 1170px;
-        border: 1px solid rgba(255, 0, 0, 0);
-    } */
+
      .mb-3 {
   position: relative;
 }
 
 .invalid-feedback {
   position: absolute;
-  bottom: -1.4rem; /* adjust depending on your spacing */
+  bottom: -1.4rem;
   left: 0;
   font-size: 0.875rem;
   color: red;
   display: none;
-  white-space: nowrap; /* keep in one line or wrap as needed */
+  white-space: nowrap; 
 }
 
 .was-validated .form-control:invalid ~ .invalid-feedback,

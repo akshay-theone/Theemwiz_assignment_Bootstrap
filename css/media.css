@@ -643,12 +643,12 @@ margin: 0;
 /* Form */
 .invalid-feedback {
   position: relative;
-  bottom: 0; /* adjust depending on your spacing */
+  bottom: 0; 
   left: 10px;
   font-size: 0.875rem;
   color: red;
   display: none;
-  white-space: nowrap; /* keep in one line or wrap as needed */
+  white-space: nowrap; 
 }
 
 .was-validated .form-control:invalid ~ .invalid-feedback,
@@ -783,7 +783,7 @@ margin: 0;
 
     /* Lightbox styles */
     .lightbox {
-      display: none; /* hidden by default */
+      display: none; 
       position: fixed;
       top: 0; left: 0;
       width: 100vw;
