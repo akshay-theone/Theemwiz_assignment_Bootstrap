@@ -3,10 +3,10 @@
     box-sizing: border-box;
 font-family: "Epilogue", sans-serif;
 margin: 0;
-/* overflow-x: hidden; */
-/* overflow: hidden; */
- /* outline: 1px solid red; */
+
 }
+
+/* Hero Section */
 #heroTitle{
     font-weight: 400;
     font-size: 16px;
@@ -72,6 +72,8 @@ margin: 0;
     padding-bottom: 50px;
     border-bottom: 1px solid rgba(243, 209, 191, 1);
 }
+/* Hero Section */
+/* About Section */
 
 #aboutSection{
     padding-top: 50px;
@@ -122,7 +124,9 @@ margin: 0;
     line-height: 100%;
     letter-spacing: 0px;
 }
+/* About Section */
 
+/* Exp Section */
 #expSection{
     margin-top: 100px;
 }
@@ -165,6 +169,21 @@ margin: 0;
     padding-bottom: 20px;
 }
 
+#expBtn{
+    width: 170px;
+    height: 48px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.2957);
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+/* Exp Section */
+
+/* Info Section */
 #infoSection{
     margin-top: 100px;
     border-bottom: 1px solid rgba(243, 209, 191, 1);
@@ -224,7 +243,9 @@ margin: 0;
     letter-spacing: 0px;
     color: #391400;
 }
+/* Info Section */
 
+/* Video Section */
 #videoSection{
     margin-top: 60px;
     padding-bottom: 80px;
@@ -260,6 +281,10 @@ margin: 0;
     display: none;
 }
 
+/* Video Section */
+
+/* Portfolio Section */
+
 #portfolioSection{
     padding-top: 80px;
 }
@@ -286,6 +311,8 @@ margin: 0;
 #portfolioSelect{
     width: 329px;
 }
+
+/* Portfolio Section */
 
 #imgDiv{
     margin-top: 50px;
@@ -325,18 +352,7 @@ margin: 0;
     color: white;
 }
 
-#expBtn{
-    width: 170px;
-    height: 48px;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0px;
-    border: 1px solid rgba(255, 255, 255, 0.2957);
-    text-align: center;
-    margin-left: 80px;
-    margin-top: 50px;
-}
+/* ad Section */
 
 #adSection{
     margin-top: 150px;
@@ -381,6 +397,10 @@ margin: 0;
     right: 40px;
     bottom: 48px;
 }
+
+/* ad Section */
+
+/* Dev Section */
 
 #swiperBig{
     display: none;
@@ -462,6 +482,10 @@ margin: 0;
     letter-spacing: 0px;
 }
 
+/* Dev Section */
+
+/* Pricing Section */
+
 #pricingDiv{
     padding-top: 100px;
 }
@@ -531,6 +555,10 @@ margin: 0;
     letter-spacing: 0px;
 }
 
+/* Pricing Section */
+
+/* FAQ Section */
+
 #faqContainer{
     padding-top: 100px;
 }
@@ -565,6 +593,8 @@ margin: 0;
     line-height: 32px;
     letter-spacing: 0px;
 }
+
+/* FAQ Section */
 
 /* Accordian */
 .accordion-item{
@@ -880,5 +910,8 @@ margin: 0;
     display: none;
 }
 
+.mobile-hidden{
+    display: none;
+}
 
 }
