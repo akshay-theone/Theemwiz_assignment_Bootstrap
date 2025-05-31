@@ -37,7 +37,7 @@
           </li>
         </ul>
         <button class="btn btn-outline-light px-4 btn-height" type="button" id="navBtn">
-          <a href="#contactSection #mapSection" class="text-decoration-none text-light nav-link-hover-dark">CONTACT</a></button>
+          <a href="#contactSection" class="redirect text-decoration-none text-light nav-link-hover-dark">CONTACT</a></button>
       </div>
     </div>
   </nav>
@@ -51,9 +51,9 @@
                 <p id="heroText" class="text-info">Agency provides a full service range including technical skills, design, business understanding.</p>
                 <div id="heroBtn" class="d-flex gap-4 mt-4 mb-5">
                     <button id="heroBtn1" class="bg-warning border-0 rounded-2"> <a href="#infoSection" class="text-decoration-none text-light">HOW WE WORK</a></button>
-                    <button id="heroBtn2" class="bg-dark border-0"> <a href="#contactSection" class="text-decoration-none text-light">Contact Us</a> </button>
+                    <button id="heroBtn2" class="bg-dark border-0"> <a href="#contactSection" class="redirect text-decoration-none text-light">Contact Us</a> </button>
                 </div>
-                <div id="manDiv" class="d-flex justify-content-center align-items-center gap-4">
+                <div id="manDiv" class="d-flex justify-content-start align-items-center gap-4">
                     <div id="manImgDiv">
                         <img src="./Assets/Bitmap.svg" alt="maning" class="mb-5">
                     </div>
@@ -223,7 +223,7 @@
             </div>
             
           </div>
-                <div>
+                <div id="exploreBtn" class="container-sm text-sm-center">
                   <button id="expBtn" class="text-light bg-dark">EXPLORE MORE</button>
                 </div>
             </section>
@@ -234,7 +234,7 @@
                     <h5 id="adTitle" class="text-warning">GET STARTED</h5>
                     <h4 id="adHeading" class="text-secondary">We Help Companies <br> Move Faster</h4>
                     <button id="adBtn" class="text-light bg-warning border-0 rounded-2 mt-2 mb-5">
-                      <a href="#contactSection" class="text-decoration-none text-light">CONTACT US</a>
+                      <a href="#contactSection" class="redirect text-decoration-none text-light">CONTACT US</a>
                     </button>
                 </div>
                 <div id="adDiv2">
@@ -418,7 +418,7 @@
                         <p class="pricingText pt-3">Production</p>
                     </div>
                     </div>
-                    <button id="pricingBtn1" class="pricingBtn bg-light rounded-2"><a href="#contactSection" class="text-decoration-none text-secondary">CONTACT US</a></button>
+                    <button id="pricingBtn1" class="pricingBtn bg-light rounded-2"><a href="#contactSection" class="redirect text-decoration-none text-secondary">CONTACT US</a></button>
                     </div>
                     <div id="pricingplan2" class="bg-light pt-4 px-4 pb-5">
                       <p id="pricingTag" class="bg-warning">Popular</p>
@@ -439,7 +439,7 @@
                         <p class="pricingText pt-3">Production</p>
                     </div>
                     </div>
-                    <button id="pricingBtn2" class="pricingBtn bg-warning rounded-2"><a href="#contactSection" class="text-decoration-none text-light">CONTACT US</a></button>
+                    <button id="pricingBtn2" class="pricingBtn bg-warning rounded-2"><a href="#contactSection" class="redirect text-decoration-none text-light">CONTACT US</a></button>
                     </div>
                     <div id="pricingplan3" class="pt-4 px-4 pb-5">
                         <h5 class="pricingTitle">DESIGN+CODE</h5>
@@ -459,7 +459,7 @@
                         <p class="pricingText pt-3 text-secondary">Production</p>
                     </div>
                     </div>
-                    <button id="pricingBtn3" class="pricingBtn bg-light rounded-2"><a href="#contactSection" class="text-decoration-none text-secondary">CONTACT US</a></button>
+                    <button id="pricingBtn3" class="pricingBtn bg-light rounded-2"><a href="#contactSection" class="redirect text-decoration-none text-secondary">CONTACT US</a></button>
                     </div>
                 </div>
             </section>
@@ -469,7 +469,7 @@
                 <h5 id="faqTitle" class="text-warning">FAQ</h5>
                 <h3 id="faqHeading" class="text-secondary">Frequently Asked Questions</h3>
                 <p id="faqDesc">A digital agency is a business you hire to outsource your <br> digital marketing efforts, instead of handling in-house.</p>
-                <a href="#contactSection" id="faqBtn" class="text-secondary text-decoration-none">CONTACT US</a>
+                <a href="#contactSection" id="faqBtn" class="redirect text-secondary text-decoration-none">CONTACT US</a>
                 </div>
                 <div id="faqDivRight" class="mt-5">
                     <div class="accordion" id="accordionExample">
@@ -530,7 +530,7 @@
                 </div>
               </div>
             </section>
-            <section id="contactSection" class="bg-primary mobileMap">
+            <section id="contactSection" class="redirect bg-primary mobileMap">
                 <div class="mx-4" id="formDiv">
           <div class="bg-light">
             <h4 class="form-title mb-4 mx-3">Get In Touch</h4>
@@ -570,12 +570,12 @@
 </form>
           </div>
         </div>
-        <section id="mapSection" class="position-relative">
+        <section id="mapSectionMobile" class="position-relative">
             <img src="./Assets/pin.svg" alt="mapimg" class="position-absolute top-50 start-50 translate-middle">
         </section>
             </section>
             <!-- MAP DESKTOP -->
-<section id="mapSection" class="img-fluid">
+<section id="mapSectionDesktop" class="img-fluid">
       <div class="row">
         <div class=" column-sm-6 formDiv">
           <h4 class="form-title">Get In Touch</h4>
@@ -633,7 +633,7 @@
             <p class="footerText"> <a href="#aboutSection">About</a></p>
             <p class="footerText"> <a href="#infoSection">Services</a></p>
             <p class="footerText"> <a href="#faqContainer">Blog</a></p>
-            <p class="footerText"> <a href="#contactSection">Contact</a></p>
+            <p class="redirect footerText"> <a href="#contactSection">Contact</a></p>
         </div>
         <div id="footerDiv3">
             <h5 class="footerHeading text-warning">SERVICE</h5>
@@ -684,5 +684,6 @@
         <script src="./js/swiper.js"></script>
         <script src="./js/form.js"></script>
         <script src="./js/lightbox.js"></script>    
+        <script src="./js/script.js"></script>
 </body>
 </html>

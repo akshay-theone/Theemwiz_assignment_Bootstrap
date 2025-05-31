@@ -721,7 +721,7 @@ margin: 0;
 .desktopMap{
     display:none;
 }
-#mapSection{
+#mapSectionMobile{
     background-image: url(/Assets/map.jpg);
         background-size: cover;
         background-position: center;

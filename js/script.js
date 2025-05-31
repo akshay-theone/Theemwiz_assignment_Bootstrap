@@ -1,21 +1,17 @@
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
+document.addEventListener('DOMContentLoaded', function () {
+  const triggers = document.querySelectorAll('.redirect'); // select ALL .redirect elements
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+  triggers.forEach(function(trigger) {
+    trigger.addEventListener('click', function (e) {
+      e.preventDefault(); // stop anchor from jumping
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+      if (window.innerWidth < 750) {
+        const contact = document.querySelector('#contactSection');
+        if (contact) contact.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        const map = document.querySelector('#mapSectionDesktop');
+        if (map) map.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
 });
